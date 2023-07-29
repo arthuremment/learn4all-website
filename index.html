@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LEARN4ALL</title>
+
+  <link rel="website icon" type="jpg" href="./images/logo1.jpg">
+
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <script src="./js/index.js" defer></script>
+  <script src="./js/contactus.js" defer></script>
+  <script src="./js/newsletter.js" defer></script>
+  <script src="./js/jquery.min.js" ></script>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="./images/logo1.jpg" alt=""></a>
+      </div>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#accueil" style="color: #ff7f00;"> Accueil</a></li>
+          <li><a href="#apropos">A propos</a></li>
+          <li><a href="./pages/programmes.html">Programmes</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contactez nous</a></li>
+          <button><a href="./pages/connexion.html">Connexion</a></button>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="banniere" id="accueil">
+    <div class="image"></div>
+    <div class="carousel">
+      <div class="contenu i1">
+        <h2> <span> Notre mission:</span> l'égalité des chances</h2>
+        <div>
+          <p>LEARN4ALL est une plateforme d'apprentissage en ligne qui est fière de proposer une large gamme de cours pour tous les niveaux. 
+            Nous sommes heureux d'accueillir tous les apprenants, qu'ils soient débutants ou avancés, et de leur offrir des cours conçus pour 
+            les aider à améliorer ou à approfondir leurs connaissances.Nous sommes ravis de vous compter parmi la famille LEARN4ALL et nous espérons 
+            que vous apprécierez votre expérience d'apprentissage avec nous.
+          </p>
+        </div>
+        <a href="./pages/programmes.html" class="btn1">découvrir nos programmes</a>
+        <a href="./pages/inscription.html" class="btn2">s'inscrire</a>
+      </div>
+      <div class="contenu i2">
+        <h2>L'éducation pour tous,<span> sans exception</span></h2>
+        <div>
+          <p>
+            L'éducation pour tous est un droit fondamental qui doit être accessible à tous, sans exception. 
+            Cela signifie que chaque individu, indépendamment de son origine sociale, de son sexe, de sa religion ou de son handicap, 
+            doit avoir la possibilité de recevoir une éducation de qualité. L'objectif est de garantir l'égalité des chances et de 
+            permettre à chacun de réaliser son potentiel maximum.
+          </p>
+        </div>
+        <a href="./pages/programmes.html" class="btn1">découvrir nos programmes</a>
+        <a href="./pages/inscription.html" class="btn2">s'inscrire</a>
+      </div>
+      <div class="contenu i3">
+        <h2>Apprenez, <span> grandissez</span>, réussissez</h2>
+        <div>
+          <p>LEARN4ALL est une plateforme éducative qui offre une large gamme de cours pour aider les apprenants à développer leurs 
+            compétences et atteindre leurs objectifs. Les cours proposés sont conçus pour offrir 
+            une base solide et aider les apprenants à évoluer. Nous sommes fiers de voir nos étudiants sourire chaleureusement après avoir 
+            atteint leurs objectifs grâce à notre plateforme.
+          </p>
+        </div>
+        <a href="./pages/programmes.html" class="btn1">découvrir nos programmes</a>
+        <a href="./pages/inscription.html" class="btn2">s'inscrire</a>
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <ul>
+        <li id="slide1" class="active"></li>
+        <li id="slide2"></li>
+        <li id="slide3"></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- a propos section -->
+
+  <section class="apropos" id="apropos">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Ce Que Nous Proposons
+        </h2>
+        <p>
+          LEARN4ALL vous offre les meilleurs cours sur chaque programme sollicité et vous assurant une comprehension les plus performante. 
+          Nous vous offrons la possibilités de télécharger nos cours et de pouvoir les partager.
+        </p>
+      </div>
+      <div class="row">
+        <div class="container-box">
+          <div class="content-box">
+            <div class="img-box">
+              <img src="./images/safety first.svg" alt="" class="img-svg">
+            </div>
+            <div class="detail-box">
+              <h6>
+                sécurité
+              </h6>
+              <p>
+                Notre objectif consiste à vous accompagner en vous instaurant un climat de bien-etre et de securité tout au long de votre 
+                apprentissage. Celà est l'une de nos priorités majeures
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box">
+          <div class="content-box">
+            <div class="img-box">
+              <img src="./images/small class size.svg" alt="" class="img-svg">
+            </div>
+            <div class="detail-box">
+              <h6>
+                CADRE DYNAMIQUE
+              </h6>
+              <p>
+               Vous garantir un cadre de travail plus dynamique et une interaction plus facile et efficace avec vos encadreurs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box">
+          <div class="content-box">
+            <div class="img-box">
+              <img src="../images/infant care.svg" alt="" class="img-svg">
+            </div>
+            <div class="detail-box">
+              <h6>
+                la priorité c'est vous
+              </h6>
+              <p>
+                N'ayant pas un assez facile à l'éducation, nous offrons aux personnes sous-représentées des soins les plus encadrants 
+                possible pour pouvoir completement les satisfaire.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box">
+          <div class="content-box">
+            <div class="img-box">
+              <img src="./images/creative lesson.svg" alt="" class="img-svg">
+            </div>
+            <div class="detail-box">
+              <h6>
+                lecons adaptes à tous
+              </h6>
+              <p>
+                Nos cours pour chaque programme ont été sélectionnés avec soin pour vous. 
+                Ils y contiennent des lecons trés explicatives et des activités adequates pour accentuer votre apprentissage.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box">
+          <div class="content-box">
+            <div class="img-box">
+              <img src="./images/certify teachers.svg" alt="" class="img-svg">
+            </div>
+            <div class="detail-box">
+              <h6>
+                enseignants certifiés
+              </h6>
+              <p>
+                LEARN4ALL vous met en communication avec les meilleurs enseignants certifiés pour tous vos soucis d'incomprehension et 
+                pour une experience d'apprentissage soutenu.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box">
+          <div class="content-box">
+            <div class="img-box">
+              <img src="./images/happy environment.svg" alt="" class="img-svg">
+            </div>
+            <div class="detail-box">
+              <h6>
+                environnement sain
+              </h6>
+              <p>
+                Votre confort éducatif est notre priorité. LEARN4ALL vous offre un environnement de travail mettant à votre disposition les 
+                ressources nécessaires pour votre évolution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end offer section -->
+
+  <!-- about section -->
+  <section class="about_section ">
+    <div>
+      <div class="container">
+        <div>
+          <div class="img-box">
+            <img src="./images/about-img.jpg" alt="">
+          </div>
+        </div>
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2>
+              En savoir plus sur nous
+            </h2>
+          </div>
+          <p>
+            Quand nous parlons de « TOUS », il s’agit bel et bien de « TOUS » …. Tout le monde mérite une chance d’apprendre, étudier, et de 
+            s’informer … Learn4ALL vous donne ainsi l’occasion de vous perfectionner dans les domaines de l’informatique, de l’anglais et 
+            également de l’entreprenariat… 
+          </p>
+          <div>
+            <a href="./pages/en_savoir_plus.html">En savoir plus </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- end about section -->
+
+  <!-- comments section -->
+
+  <section class="client_section" id="avis">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Avis
+        </h2>
+      </div>
+      <div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="client_container">
+              <div class="img-box">
+                <img src="./images/client.png" alt="parent">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  NOUBISSI Arthur
+                </h4>
+                <h6>
+                  etudiant
+                </h6>
+                <p>
+                  Je suis vraiment impressionné par la qualité des cours d'anglais proposés sur ce site. Les leçons sont bien structurées et 
+                  faciles à suivre, et les exercices pratiques sont très utiles pour améliorer mes compétences linguistiques. 
+                  J'ai également beaucoup apprécié l'interaction avec les enseignants et les autres étudiants dans le forum de discussion. 
+                  Je recommande vivement ce site à tous ceux qui cherchent à améliorer leur anglais de manière efficace et amusante.
+                </p>
+                <img src="./images/quote.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="client_container">
+              <div class="img-box">
+                <img src="./images/parent.jpg" alt="student">
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Corali NATOU
+                </h4>
+                <h6>
+                  parent
+                </h6>
+                <p>
+                  Je suis ravi de voir que mon enfant a énormément progressé grâce aux cours proposés sur ce site d'apprentissage en ligne. 
+                  Les leçons sont très bien conçues et adaptées à son niveau, ce qui lui permet de travailler à son rythme tout en restant 
+                  motivé. Les exercices pratiques sont également très utiles pour renforcer ses compétences linguistiques. 
+                  Je recommande vivement ce site à tous les parents qui cherchent une solution efficace et amusante pour aider leurs enfants 
+                  à améliorer leur anglais.
+                </p>
+                <img src="./images/quote.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="prev" src="./images/prev.png" alt="previous">
+        <img class="next" src="./images/next.png" alt="next">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end comments section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section " id="contact">
+
+    <div class="container">
+
+      <div>
+        <h2>Nous contacter</h2>
+      </div>
+
+      <div class="row">
+        <div>
+          <form id="contact-form" method="post" action="" role="form">
+            <div class="contact_form-container">
+              <div>
+                <div>
+                  <input type="text" name="nom" id="nom" placeholder="Nom" required>
+                </div>
+                <div>
+                  <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                  <input type="tel" name="tel" id="tel" placeholder="Telephone" required>
+                </div>
+                <div>
+                  <textarea name="message" id="message" placeholder="Message" required></textarea>
+                </div>
+                <div>
+                  <button type="submit">envoyer</button>
+                </div>
+              </div>
+            </div>
+
+          </form>
+        </div>
+        <div>
+          <div class="contact_img-box">
+            <img src="./images/students.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+
+  <section class="info_section">
+    <div class="info_logo-box">
+      <h2>
+        LEARN<span>4</span>ALL
+      </h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div>
+          <h5>
+            A propos
+          </h5>
+          <p>
+            En savoir plus <br>
+            Découvrez nos programmes <br> d'apprentissage
+          </p>
+        </div>
+        <div>
+          <h5>
+            Assistance
+          </h5>
+          <ul>
+            <li>
+              <a href="">
+                J'ai besoin d'aide
+              </a>
+            </li>
+            <li>
+              <a href="./pages/programmes.html">
+                Programmes disponibles
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Nous soutenir
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>
+            Nous contacter
+          </h5>
+          <p>
+            Envoyez nous un message !
+          </p>
+        </div>
+        <div>
+
+          <div class="subscribe_container">
+            <h5>
+              Newsletter
+            </h5>
+            <div class="form_container">
+              <form action="" role="form" method="post">
+                <input type="email" id="newsmail" name="newsmail" placeholder="Entrer votre email" required>
+                <button type="button" id="suscribe">s'enregistrer</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="social_container">
+
+        <div class="social-box">
+          <a href="">
+            <img src="./images/fb.png" alt="">
+          </a>
+
+          <a href="">
+            <img src="./images/twitter.png" alt="">
+          </a>
+          <a href="">
+            <img src="./images/linkedin.png" alt="">
+          </a>
+          <a href="">
+            <img src="./images/instagram.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <p>
+      Copyright &copy; 2023 All Rights Reserved By
+      <a href="">LEARN4ALL</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+</body>
+
+</html>
