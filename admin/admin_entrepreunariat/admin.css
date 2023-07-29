@@ -1,0 +1,155 @@
+:root {
+    --bleu: #153c65;
+    --orange: #ff7f00;
+    --jaune: #e1c73e;
+    --blanc: #ffffff;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Black.ttf');
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-light';
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    /*outline: 1px dotted red;*/
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+body{
+    background: linear-gradient(to top, rgba(21, 60, 101, 0.9)50%, rgba(21, 60, 101, 0.9)50%);
+    width: 100%;
+    min-height: 100vh;
+}
+
+main{
+    background-color: var(--blanc);
+    border-radius: 10px;
+    margin: 40px 50px;
+    padding: 50px;
+}
+main .header{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+main .header h1{
+    font-family: 'Poppins';
+    border-bottom: 1px solid var(--orange);
+}
+main .header button{
+    background-color: var(--bleu);
+    border: none;
+    border-radius: 10px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: var(--blanc);
+    padding: 0;
+    margin: 0;
+}
+button:hover a{
+    color: var(--orange);
+}
+table{
+    padding: 10px;
+    border-collapse: collapse;
+}
+table thead th{
+    font-size: 1rem;
+}
+table th, table td {
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.light{
+    font-family: 'Roboto-Light';
+}
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+table thead tr th{
+    background-color: var(--blanc);
+}
+.modifier, .supprimer{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.modifier{
+    background-color: var(--bleu);
+}
+.supprimer{
+    background-color: red;
+}
+
+/*CSS insert.php*/
+.insert form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.insert label{
+    margin-bottom: 7px;
+}
+.insert input, .insert textarea {
+    outline: none;
+    padding: 10px;
+}
+.insert input::placeholder, .insert textarea::placeholder{
+    font-family: 'Roboto-light';  
+}
+.insert button{
+    background-color: var(--bleu);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.insert .retour{
+    background-color: var(--orange);
+}
+.insert .ajouter{
+    color: var(--blanc);
+}
+.insert .retour:hover a{
+    color: var(--blanc);
+}
+
+/*CSS delete.php*/
+.alerte{
+    font-family: 'Roboto-light';
+    background-color: rgb(247, 199, 199);
+    border: 1px solid var(--orange);
+    padding: 20px;
+    margin: 25px 0;
+}

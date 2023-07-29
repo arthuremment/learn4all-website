@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LEARN4ALL</title>
+
+    <link rel="website icon" type="jpg" href="../images/logo1.jpg">
+
+    <link rel="stylesheet" href="../css/inscription.css">
+
+    <script src="../js/password.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo1.jpg" alt="logo"></a>
+        </div>
+        <div class="section">
+            <h1>Inscription</h1>
+            <p>Inscris-toi maintenant pour profiter de nos programmes d'apprentissage.</p>
+            <div class="form">
+                <form action="../php/inscription.php"  method="POST" role="form">
+                    <div class="">
+                      <div>
+                        <div><input type="name" name="name" placeholder="Nom d'utilisateur"></div>
+                        <div><input type="email" name="email" placeholder="Email" required></div>
+                        <div><input type="password" id="password" name="password" placeholder="Mot de passe (au moins 8 caractéres)" required>
+                             <img src="../images/show-eye.jpg" id="show-hide-pass" alt="">
+                             <img src="../images/hidden-eye.jpg" id="hide-pass" alt="">
+                        </div>
+                        <div><input type="checkbox" name="" id="" checked required> <label>J'accepte les règles et conditions d'utilisation de ce site</label></div>
+                        <div><button type="submit">S'incrire</button></div>
+                        <div class="forgot-password"><a href="../pages/connexion.html">J'ai déja un compte !</a></div>
+                      </div>
+                    </div>
+        
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer_section">
+            <p>
+                Copyright &copy; 2023 All Rights Reserved By
+                <a href="">LEARN4ALL</a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

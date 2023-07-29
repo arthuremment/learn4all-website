@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LEARN4ALL</title>
+
+    <link rel="website icon" type="jpg" href="../images/logo1.jpg">
+
+    <link rel="stylesheet" href="../css/connexion.css">
+
+    <script src="../js/password.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo1.jpg" alt="logo"></a>
+        </div>
+        <h1>Se connecter</h1>
+        <div class="section">
+            <div class="form">
+                <form action="../php/connexion.php" role="form" method="POST">
+                    <div class="">
+                      <div>
+                        <div><input type="email" name="email" placeholder="Email" required></div>
+                        <div><input type="password" id="password" name="password" placeholder="Mot de passe" required>
+                             <img src="../images/show-eye.jpg" id="show-hide-pass" alt="">
+                             <img src="../images/hidden-eye.jpg" id="hide-pass" alt="">
+                        </div>
+                        <div><input type="checkbox" name="" id="" checked> <label>Se souvenir de moi</label></div>
+                        <div><button type="submit">Connexion</button></div>
+                        <div class="forgot-password"><a href="#">Mot de passe oublié?</a></div>
+                      </div>
+                    </div>
+        
+                </form>
+            </div>
+
+            <div class="nextform">
+                <h2>Vous êtes nouveau ? <br> Vous n'avez pas encore de compte ?</h2>
+                <p>Ayez accés à toutes les fonctionnalités et plus encore avec votre compte LEARN4ALL.</p>
+                <p>C'est GRATUIT !!!</p>
+                <button><a href="../pages/inscription.html"> S'inscrire</a></button>
+            </div>
+        </div>
+
+        <footer class="footer_section">
+            <p>
+                Copyright &copy; 2023 All Rights Reserved By
+                <a href="">LEARN4ALL</a>
+            </p>
+        </footer>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
